@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../css/stil.css" />
+</head>
+<body>  
+<div class="navbar">
+  <a href="../">Početna</a>
+  <a href="../mongotest/list">Podaci iz MongoDB</a>
+  <a href="../mongotest/insert">Dodavanje u MongoDB</a>
+  <a href="../mongotest/remove">Izbacivanje iz MongoDB</a>
+</div>
+<div class="main">
+<form action="../mongotest/insert" method="POST">
+<br /><br /><br />
+<fieldset>OSNOVNI PODACI
+<table>
+<tr><td>IME: </td><td><input type="text" name="ime"></td></tr>
+<tr><td>LOZINKA: </td><td><input type="password" name="lozinka"></td></tr>
+</table>
+</fieldset> <br />
+<fieldset>PROFESIJA:
+<select name="prof" id="prof">
+  <option value="nastavnik">nastavnik</option>
+  <option value="administrator">administrator</option>
+  <option value="čuvar">čuvar</option>
+  <option value="saradnik">saradnik</option>
+</select>
+</fieldset><br />
+<input type="submit" value="Potvrdi">
+</div>  
+<div class="footer">prof dr Goran Šimić, 2023</div></body></html>
+</form>
+</body>
+</html>
